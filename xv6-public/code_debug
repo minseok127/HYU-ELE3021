@@ -1,0 +1,35 @@
+// Debugging info
+	/*cprintf("no runnable, debug start\n");
+	cprintf("page0: %p\n", pp->threadDir[0]);
+	cprintf("page1: %p\n", pp->threadDir[1]);
+	cprintf("page2: %p\n", pp->threadDir[2]);
+	cprintf("current thread id: %d, pagenum: %d\n",
+			curthread->tid, curthread->pageNum);
+
+	for(pn = 0; pn < NTHREADPAGE; pn++) {
+		pg = pp->threadDir[pn];
+
+		if (pg == 0) {
+			continue;
+		}
+
+		for (i = 0; i < NTHREAD; i++) {
+			target = &(pg->threadArr[i]);
+			if (target->p != 0) {
+				if (target->owner != 0) {
+					cprintf("owner: %d, ", target->owner->tid);
+				}
+
+				cprintf("index: %d, page num: %d, ", i, pn);
+				cprintf("context: %p, ", target->p->context);
+				cprintf("id: %d, p->chan: %p, state: %d\n", 
+						target->tid, target->p->chan, target->p->state);
+			}
+
+		}
+	}
+
+	cprintf("ticks: %p\n", &ticks);
+	cprintf("now id: %d\n", pp->threadNow->tid);*/
+
+
