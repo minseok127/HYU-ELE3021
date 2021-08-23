@@ -1,5 +1,4 @@
-Upgraded xv6   
-[HYU-ELE3021, 1st semester 2021]
+Upgraded xv6 [HYU-ELE3021, 1st semester 2021]
 ================================
 운영체제는 동시에 돌아가는 다수의 프로세스들에게 컴퓨터의 자원을 적절히 분배해야합니다.    
    
